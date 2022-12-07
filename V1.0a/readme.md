@@ -1,5 +1,5 @@
 # Chat Room Usando Socket - Conexão TCP
-#### Curso: Ciência da Computação
+#### Curso: Ciência da Computação 
 #### Trabalho de Rede de Computadores I
 #### Professor: Jorge Lima de Oliveira Filho
 #### Desenvolvedores: João Carlos Ribas Chaves Júnior, Yan Costa Macedo.
