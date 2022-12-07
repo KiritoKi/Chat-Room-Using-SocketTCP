@@ -34,8 +34,8 @@ server.bind((host, port))
 server.listen()
 ```
 - A variável server utiliza a conexão com o socket definindo os argumentos que queremos utilizar, o AF_INET(socket de internet ipv4) e o SOCK_STREAM(protocolo TCP)
-- a função bind do server aloca uma tupla com o endereço ip e a porta do servidor
-- a função listen coloca o server em modo escuta
+- A função bind do server aloca uma tupla com o endereço ip e a porta do servidor
+- A função listen coloca o server em modo escuta
 
 ### Variavéis Globais
 ```
@@ -117,7 +117,7 @@ def handle(client):
 - Carrega a lista de nomes banidos e nega o acesso de usuários banidos
 - Uma vez que um cliente está conectado, envia a string  'NICK' para requisitar o nickname do cliente
 - Caso for o usuario 'admin' ele envia a string 'PASS' para requisitar o password e verifica o password do admin, aceitando ou negando a conexão
-- faz a interação de cliente conectado ao servidor com os clientes e inicializa as threads
+- Faz a interação de cliente conectado ao servidor com os clientes e inicializa as threads
 ##### Parametros:
 (none)
 
@@ -361,4 +361,4 @@ O protocolo escolhido foi o TCP, sendo escolhido por conta de garantir maior int
 
 # Requisitos mínimos de funcionamento:
 - Rede local 
-- Máquina com python 3.7
+- Máquina com python 3.10
