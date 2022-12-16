@@ -60,7 +60,9 @@ def broadcast(message):
 ```
 
 #### Função handle:
-- Se encarrega com as mensagens do cliente
+- Roda com um laço while e para apenas se ocorrer uma exceção
+- Se por algum motivo houver erro na conexão, tira o cliente das listas de cliente e encerra a conexão com o servidor
+- Se encarrega de tratar as mensagens do cliente
 - Primeiro é armazenado a mensagem recebida do cliente
 - Se a mensagem chegada do cliente for um comando de admin KICK, então:
     - Verifica se o usuário é o admin
